@@ -23,3 +23,7 @@ If no string is provided it creates an empty file.
 
 >[!NOTE]
 > nf.py can create all types of files. Just specify the type.
+
+#### [**dup.py**](./dup.py) - Duplicates the content from a file into a new one with an incremented number
+
+Specific to Holberton's Advanced HTML project.
