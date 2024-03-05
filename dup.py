@@ -4,8 +4,8 @@ import sys
 
 def duplicate_file(file, num=1):
     print("============")
-
-    num = int(sys.argv[2])
+    if len(sys.argv) >= 3:
+        num = int(sys.argv[2])
 
     file_name_split = file.split("-")
     old_file_num = int(file_name_split[0])
